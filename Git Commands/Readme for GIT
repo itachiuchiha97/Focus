@@ -7,4 +7,5 @@ git push // to actually push it to github
 git pull // to refresh own repository
 git branch // to know current working branch
 git branch new_branch_name // all changes to be done on a separate branch
+git checkout new_branch_name // to migrate to new branch
 git merge master // to merge the current working branch to origin
