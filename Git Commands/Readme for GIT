@@ -1,0 +1,10 @@
+git clone repo_url
+git status
+git commit -m "message"
+git add name_of_file
+git add . // for all files
+git push // to actually push it to github
+git pull // to refresh own repository
+git branch // to know current working branch
+git branch new_branch_name // all changes to be done on a separate branch
+git merge master // to merge the current working branch to origin
