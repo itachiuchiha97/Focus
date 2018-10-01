@@ -1,0 +1,13 @@
+Everything in Java is a class
+And every class should have a main method.
+
+Not a compulsion to have java file name same as class name.
+For instance if xyz is file name and xyz12 is class name then the compiled class name will be xyz12
+But when class is public then it should have same name as file
+
+source code > compiler > bytecode
+java api has all the classes (default) needed for execution. It can be imported during use example Scanner class for taking input
+
+//firse save a file name.java 
+javac name.java //compiles and gives a bytecode as name.class it is unreadable also known as Object Code it is defined as output of compiled Code
+java name // runs the bytecode using JVM (platform independent)
