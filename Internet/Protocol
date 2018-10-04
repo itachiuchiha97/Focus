@@ -1,0 +1,8 @@
+-Internet Protocol (IP), which uses a set of rules to send and receive messages at the Internet address level
+
+layers
+
+Application(httP) > Transport(TCP) > Internet > Network
+
+Once Application layer gets data it asks the transport layer through a port.
+Each port can be assigned to a different Protocol.
