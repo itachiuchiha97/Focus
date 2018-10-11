@@ -109,3 +109,8 @@ Feedback:
 2. Kaun kaunse sensors chal rhe hai
 3. Logging ho bhi rhi hai ki nahi
 4. Telemetry active or not
+
+
+GoPro:
+1. List of activities and tasks that will be achieved using same 
+2. Sponsorship mail
