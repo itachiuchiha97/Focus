@@ -1,12 +1,100 @@
-Shifter using Labjack and Arduino relays
-ARB, DRS Servo
-Wire gauges and Color Availability
-Buttons for shifter
-Shift Lights
-Curly cord wire + Mail HRP
-Hardware timers in Labjack
-Different protocol sensors with Labjack
-All stuff working together
-DTA-Motec-Sensors-Telemetry wiring loom
-Case for Spartan
-Jetson enclosure and mounting
+Shifter:
+1. MOSFET
+2. Linear potentio in parallel
+3. PID tuning
+4. Limit to 4th gear
+5. How to Neutral
+6. Buttons? (Steering Wheel)
+7. Shift Cut?
+
+
+
+DTA and Motec: 
+1. Dash CAD
+2. Loom kidr se nikl rhi
+
+
+
+DTA and Jetson:
+1. via inbuilt CANbus or Arduino?
+
+
+Spartan:
+1. Case and proper mounting
+- Samne rkha hona chaiye fir usske according CAD
+- Power vagehra
+
+
+GPS:
+1. Peeche se loom kaise nikaalni hai
+
+
+Camera?
+
+
+Power and Loom management:
+1. Shifter actual output and dusre circuits ki usse protection
+2. Battery chusai (with shifter and sensors)
+3. DSO scenes?
+4. Different ground potention protection and isolation? 
+   Sara reverse current voltage bakchodi
+5. Kill switch for all electronics and all off when engine is not running?
+6. Test bench for all sensors cum electronics
+7. Battery monitoring system
+8. Which gauge and color being selected
+9. Wiring CAD or whatever
+10. Heat shrinks, Heat gun, Glue gun jo bhi chaiye usski list
+11. Sensors wiring routing and wiring diagram (later Software wala)
+12. Brake pressure sensor input
+13. Curly cord wire?
+14. Steering wiring and Dash wiring
+15. RPM input for shift Lights
+16. Battery eliminator for mobile?
+17. DTA-Motec-Sensors-Telemetry wiring loom (High coordination with engines)
+18. Ports needed on Dash for programming with casing
+
+
+PCB:
+1. Multiple Arduino IC's for different sensors, servos, temp  with proper protection
+
+
+Software and Telemetry:
+1. DBMS
+2. Node sockets
+3. App and Mobile finalize
+
+
+
+Servo:
+1. Calibration
+2. Power management
+
+
+Jetson:
+1. Enclosure
+2. Peripherals?
+3. How to Power
+4. Check with DSO whatever is being ordered
+5. What all softwares are running
+
+
+Antenna:
+1. How to work?
+2. Kaunse socket kya hai jo rokega?
+
+
+Data:
+1. Database
+2. Noise filtering
+3. Validation
+
+
+Software:
+1. DBMS - mongoDB
+2. Telemetry system Laptop
+3. Terminal app to sync data from various sources (Timestamp)
+4. Laptop UI
+5. Sockets?
+6. Android UI
+7. Android comm via Hotspot
+8. Laptop communication with Antenna
