@@ -52,6 +52,7 @@ Power and Loom management:
 16. Battery eliminator for mobile?
 17. DTA-Motec-Sensors-Telemetry wiring loom (High coordination with engines)
 18. Ports needed on Dash for programming with casing
+19. During cranking, all electronics to be shut down completely isolated
 
 
 PCB:
@@ -81,6 +82,7 @@ Jetson:
 Antenna:
 1. How to work?
 2. Kaunse socket kya hai jo rokega?
+3. Plan of action
 
 
 Data:
@@ -98,3 +100,6 @@ Software:
 6. Android UI
 7. Android comm via Hotspot
 8. Laptop communication with Antenna
+9. Data failsafe
+10. Data flow diagram
+11. All sensors code ready according to list
