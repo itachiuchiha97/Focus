@@ -103,3 +103,9 @@ Software:
 9. Data failsafe
 10. Data flow diagram
 11. All sensors code ready according to list
+
+Feedback:
+1. Battery health
+2. Kaun kaunse sensors chal rhe hai
+3. Logging ho bhi rhi hai ki nahi
+4. Telemetry active or not
