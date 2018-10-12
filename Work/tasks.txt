@@ -53,6 +53,8 @@ Power and Loom management:
 17. DTA-Motec-Sensors-Telemetry wiring loom (High coordination with engines)
 18. Ports needed on Dash for programming with casing
 19. During cranking, all electronics to be shut down completely isolated
+20. Fuses
+21. Dual circuit for shifter - Relays plus MOSFET
 
 
 PCB:
