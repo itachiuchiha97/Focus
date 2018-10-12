@@ -1,18 +1,16 @@
 Shifter:
-1. MOSFET
-2. Linear potentio in parallel
-3. PID tuning
-4. Limit to 4th gear
-5. How to Neutral
-6. Buttons? (Steering Wheel)
+1. MOSFET -
+2. Linear potentio in parallel -
+3. PID tuning -
+4. Limit to 4th gear -
+5. How to Neutral - 
+6. Buttons? (Steering Wheel) -
 7. Shift Cut?
-
 
 
 DTA and Motec: 
 1. Dash CAD
 2. Loom kidr se nikl rhi
-
 
 
 DTA and Jetson:
@@ -116,3 +114,6 @@ Feedback:
 GoPro:
 1. List of activities and tasks that will be achieved using same 
 2. Sponsorship mail
+
+Dash
+1. All the ports required˜

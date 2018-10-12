@@ -1,0 +1,14 @@
+{
+  "name": "firstnodeproject",
+  "version": "1.0.0",
+  "description": "first mongoDB with node project",
+  "main": "firstNode.js",
+  "scripts": {
+    "test": "testITrey"
+  },
+  "author": "Sahil",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.1.8"
+  }
+}
