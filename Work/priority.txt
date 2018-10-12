@@ -1,0 +1,36 @@
+Shifter:
+1. MOSFET
+2. Linear potentio in parallel
+3. PID tuning
+4. Limit to 4th gear
+5. How to Neutral
+6. Buttons? (Steering Wheel)
+7. Shift Cut?
+
+
+
+1. Shifter actual output and dusre circuits ki usse protection
+2. Battery chusai (with shifter and sensors)
+3. DSO scenes?
+4. Different ground potention protection and isolation? 
+   Sara reverse current voltage bakchodi
+5. Kill switch for all electronics and all off when engine is not running?
+6. Test bench for all sensors cum electronics
+11. Sensors wiring routing and wiring diagram (later Software wala)
+12. Brake pressure sensor input
+13. Curly cord wire?
+14. Steering wiring and Dash wiring
+16. Battery eliminator for mobile?
+18. Ports needed on Dash for programming with casing
+19. During cranking, all electronics to be shut down completely isolated
+
+1. Multiple Arduino IC's for different sensors, servos, temp  with proper protection
+
+Jetson:
+1. Enclosure
+
+Feedback:
+1. Battery health
+2. Kaun kaunse sensors chal rhe hai
+3. Logging ho bhi rhi hai ki nahi
+4. Telemetry active or not
