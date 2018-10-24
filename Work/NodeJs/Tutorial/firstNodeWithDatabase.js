@@ -8,7 +8,7 @@ MongoClient.connect(aaaaa, function(err,db){
     assert.equal(null, err)
     console.log('connected oyee ')
 
-    var mycollection = db.collection('student')
+    var mycollection = db.connect('student')
 
     db.student.insert({
         name: "Tushar",
@@ -18,7 +18,7 @@ MongoClient.connect(aaaaa, function(err,db){
     
     db.student.insert({
         name: "Sahil",
-        class: "12th",
+        class: "15th",
         roll: 69
     })
     
@@ -40,8 +40,16 @@ MongoClient.connect(aaaaa, function(err,db){
         roll: 23
     })
 
-    mycollection.insert([student],)
+    var rand1 = {name:"Pomila", bobay:46, age:"marad"} 
 
+    mycollection.insert([student,rand1],function(err,result){
+        if(err){
+            console.log(err)
+        }
+        else{
+            console.log("Docs Inserted", result.length, result)
+        }
 
-    db.close()
+        db.close()
+    })
 })

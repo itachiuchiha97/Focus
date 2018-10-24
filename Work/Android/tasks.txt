@@ -1,0 +1,11 @@
+app k upar se borders remove
+full screen image in backgroud
+needle ki posn fixed ( in x-y plane )
+needle ke angle of rotation defined
+mongoDB connect
+manipulate angles according to database values
+continous retrieval and update
+mongo and node api
+change angle of speedometer acc to pot value .. 
+firstly store pot value in database and from there 
+simultaneously retrieve and update screen using rest api

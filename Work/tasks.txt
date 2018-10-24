@@ -14,7 +14,7 @@ DTA and Motec:
 
 
 DTA and Jetson:
-1. via inbuilt CANbus or Arduino?
+1. via inbuilt CANbus or Arduino? -
 
 
 Spartan:
