@@ -15,6 +15,7 @@ Temperature sensors - to get Tyre Temperature
 Linear potentiometers - to get travel of dampers
 Rotary potentiometer - to get steering angle
 Engine sensors - to 
+Servos - to position various actors at a particular angles
 
 A significant amount of time is given in developing a reliable and fast DAQ system with structured data.
 An open source software MongoDB has been used in creating the database.
@@ -24,15 +25,20 @@ It is used to display critical vehicle parameters; including engine sensors, sta
 and allows to set up the vehicle for different race modes.
 
 Telemetry
-An on-board Transmitter with high gain antenna has been put up to wirelessly transmit vehicle data to pits
-in real time allowing the second driver to find those extra seconds in given conditions to analyze and set up the vehicle 
+An on-board Transmitter with high gain Antenna has been put up to wirelessly transmit vehicle data to pits
+in real time allowing the second driver to find those extra tenths in given conditions by analyzing and setting
+up vehicle for next run.
 
-and use 
+Controls
+
+
 in vehicle for validation and facilitating driver with user friendly controls
 to simplify drivability which includes interfacing sensors of different protocols together on single place at same time. 
 
 Transmitter and Antenna - 
-Interactive Screen - to display vehicle's critical parameters and setting different race modes
 
 At the heart of this lies a processing unit which acts as a
+
+
+that includes for instance, dynamic actuation of drag reduction system, actuating the shifter perfectly every time using PID control
 
