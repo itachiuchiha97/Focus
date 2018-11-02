@@ -1,0 +1,3 @@
+[submodule "Work/dr18_telemetry"]
+	path = Work/dr18_telemetry
+	url = https://github.com/drematrix/dr18_telemetry.git
