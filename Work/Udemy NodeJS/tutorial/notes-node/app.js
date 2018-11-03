@@ -24,5 +24,5 @@ filesystem_variable.appendFile('greetings.txt', `Hello chut ${user.username} `,f
 //adding two numbers from module 
 console.log(`ye hai apna launda ${res.addition(65,4)}`)
 
-var filtered_array = _.uniq(['sahil','sonu','yaya','sahil']) //gives only unique array result
+var filtered_array = _.uniq(['sahil','sonu','yaya','sahil', 'monu']) //gives only unique array result
 console.log(filtered_array)
