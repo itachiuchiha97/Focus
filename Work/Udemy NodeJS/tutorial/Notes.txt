@@ -1,0 +1,48 @@
+We can run node in Chrome as well (Dev tools> console), this is like we run in terminal
+
+Everything we create rests inside 'window' {javascript}
+
+Whereas in node it is called 'global'
+got 'process' to do things example process.close(0) // to exit node
+
+
+
+in i/o operation { //taking input vagehra
+blocking;
+machine waits for the server to do something and do not do anything else unless one task is completed
+use threads (resource wastage)
+
+ vs non blocking i/o(node use this)
+ kicks off all wevents at once unlike pele wala. Does not make process faster but enables to run parallel hence entire finish faster
+ also it does not use a seperate thread it just the way it works
+}
+
+
+modules are like libraries
+
+
+//exports are usd to export functionality of one module to othe app.js
+
+Use NPM for using online availaible vast databases
+npm init // initializes the building process
+
+LODASH kaafi bdia cheez hai 
+
+
+NOTE: node-modules are not to be pushed as they may get updated;
+plus point is if you've written it in package.json, I mean the dependencies then
+just run > npm install
+it will do Everything
+
+
+NODEMON     reponsible for restarting app when something changes.
+
+npm install asdasdasd -g // global install
+npm install asdasdasd --save // specific project install
+to activate run files as 
+nodemon app.js 
+
+
+//SKIPPING THESE LECTURES
+1. Getting input from user
+2. Simplified input with yargs to debugging // kaafi zyaada skipped
