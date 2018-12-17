@@ -1,0 +1,27 @@
+AsyncTask - requires input (params, progress,result)
+//we need to create a class that extends this async for creation of threads.
+//further implement 4 methods provided by async itself
+1. onPreExectcute // UI thread will handle this
+2. doInBackground(params) //ex on press of button do this that
+3. onProgressUpdate(progress) // ex downlaod horha hai 
+4. onPostExecute(result) // sab hogy abb kya .. result chala
+
+
+Retrofit- To work with you need basically three classes.
+//Model class which is used to map the JSON data to
+//Interfaces which defines the possible HTTP operations
+//Retrofit.Builder class – Instance which uses the interface and the Builder API which allows defining the URL end point for the HTTP operation.
+
+A Fragment is a piece of an activity which enable more modular activity design. 
+It will not be wrong if we say, a fragment is a kind of sub-activity.
+Prior to fragment introduction, we had a limitation because we can show only a single activity on the screen at one given point in time. So we were not able to divide device screen and control different parts separately. But with the introduction of fragment we got more flexibility and removed the limitation of having a single activity on the screen at a time. Now we can have a single activity but each activity can comprise of multiple fragments which will have their own layout, events and complete life cycle.
+
+
+
+//IMPLEMENTATION
+
+public class someRandomClass extends AsyncTask(param, progress, result){
+
+}
+
+after all bakchodi in main thread call Object of someRandomClass.. for instance; new someRandomClass.execute()

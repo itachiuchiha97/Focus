@@ -1,0 +1,11 @@
+{
+  "name": "tele",
+  "version": "1.0.0",
+  "description": "first socket",
+  "main": "tele_index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.6",
+    "socket.io": "^2.1.1"
+  }
+}

@@ -1,0 +1,28 @@
+[
+                 { 
+                    "id":           1,
+                    "sensor":    "RPM",  
+                    "value":     "1527"
+                 },
+                 {   
+                    "id":           2,
+                    "sensor":    "GPS",  
+                    "value":     "N"
+                 },
+                 { 
+                    "id":           3,
+                    "sensor":    "TPS",  
+                    "value":     "1223122342343dfdfewfwr23r2fc"
+                 },
+
+                 { 
+                  "id":           4,
+                  "sensor":    "WTS",  
+                  "value":     "aayi"
+               },
+               { 
+                  "id":           5,
+                  "sensor":    "WSS",  
+                  "value":     "50"
+               }
+] 
