@@ -61,3 +61,34 @@ val gobar = {
 use ``when using dollar sign
 
 
+const squareFunc = function(x){
+    return x*x
+}
+
+console.log(`Square of 8 is ${squareFunc(8)}`)
+
+.forEach(function(){
+    return aijdajdfp
+})
+
+
+
+//ADDING DYNAMIC DATA TO PAGES
+//USING TEMPLATE STRINGS ``
+
+webPage_NewSyntaxed = `
+<ul>
+    <li> Name: ${name} </li>
+    <li> Age: ${age} </li>
+    <li> Location: ${addresssss}</li>
+</ul>
+`
+
+document.body.innerHTML = webPage_NewSyntaxed
+
+
+//REFER TO FUNCTIONSANDLOOP.JS AND WINDOWOBJECT.JS FOR BETTER
+
+//Continously update wali window chahiye toh Events use kro bhsdk 
+
+//refer js_sandbox-dom-manipulations
