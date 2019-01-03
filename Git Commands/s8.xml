@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/s8background" />
+
+    <ImageView
+        android:id="@+id/IM_RPM"
+        android:src="@drawable/needle"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="138dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_Water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/play_pretend"
+        android:hint="56"
+        android:layout_marginLeft="178dp"
+        android:layout_marginTop="86dp"
+        android:textColor="@android:color/white"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/tv_TPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/play_pretend"
+        android:hint="28"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="214dp"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/IM_SPEED"
+        android:layout_width="357dp"
+        android:layout_height="215dp"
+        android:layout_marginLeft="443dp"
+        android:layout_marginTop="57dp"
+        android:src="@drawable/needle" />
+
+    <TextView
+        android:id="@+id/tv_RPM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/play_pretend"
+        android:hint="5600"
+        android:layout_marginLeft="366dp"
+        android:layout_marginTop="350dp"
+        android:textColor="@android:color/white"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/tv_SPEED"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="610dp"
+        android:layout_marginTop="205dp"
+        android:fontFamily="@font/play_pretend"
+        android:hint="110"
+        android:textColor="@android:color/white"
+        android:textSize="37sp" />
+
+</FrameLayout>
