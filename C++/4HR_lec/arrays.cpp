@@ -18,5 +18,12 @@ int main()
 
     printhello(" Sahil");
 
+    int ind = 0;
+
+    while(ind < 6){
+        cout << ind << endl;
+        ind++;
+    }
+
         return 0;
 }
