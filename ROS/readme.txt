@@ -12,13 +12,8 @@ PACKAGES are basic building blocks of ROS
 =>has integrated SLAM (Simultaneous Localization and Mapping)
     and AMCL (Adaptive Monte Carlo Localization), tools like Gazebo
 =>message passing middlware allows comm between diff nodes C++, C, Java, Python supported
-=>* MODULARITY; Even is one node crashes, system can still work
-    providesrobust methods to resume operation even if any sensor/motors are dead
 
-=>CONCURRENT RESOURCE HANDLING:
-    Camera ke data se, image processing and face detection and motion detection sabkuch karna hai
-        we can do this using ROS topics from ROS drivers
-    Any number of ROS nodes can subscribe to image message from ROS Camera driver
+
 
 => ROBOT modelling is performed using URDF, (XML based description)
         //solidworks has a pluging for this : UNIVERSAL ROBOT DEFINITION FORMAT.
@@ -31,3 +26,9 @@ ROS FILESYSTEM:
 
 
 packagemanifest - has author, license, dependencies etc
+message - type of info sent from one ROS process to other
+services - kind of request/response comm between process // inside srv folder
+
+
+The build folder is the default location of the build space and is where cmake and make are called to configure and build your packages. The devel folder is the default location of the devel space, which is where your executables and libraries go before you install your packages.
+
