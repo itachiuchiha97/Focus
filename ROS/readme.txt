@@ -116,4 +116,4 @@ This option (double-dash) tells the option parser that none of the following arg
 --
 As noted before, a geometry_msgs/Twist msg has two vectors of three floating point elements each: linear and angular. In this case, '[2.0, 0.0, 0.0]' becomes the linear value with x=2.0, y=0.0, and z=0.0, and '[0.0, 0.0, 1.8]' is the angular value with x=0.0, y=0.0, and z=1.8. These arguments are actually in YAML syntax, which is described more in the YAML command line documentation.
 
-'[2.0, 0.0, 0.0]' '[0.0, 0.0, 1.8]' 
+'[2.0, 0.0, 0.0]' '[0.0, 0.0, 1.8]'       rostopic echo /turtle1/pose
