@@ -1,0 +1,15 @@
+CHIEF INFORMATION OFFICER:
+responsible for designating a senior
+agency information security officer; developing and maintaining security policies, procedures,
+and control techniques to address security requirements; overseeing personnel with significant
+responsibilities for security and ensuring that the personnel are adequately trained;
+
+HEAD OF AGENCY:
+responsible for providing information security protections commensurate(proportional) to risks to organizational
+operations and assests
+
+CHIEF ACQUISITION OFFICER:
+The chief acquisition officer is an organizational official designated by the head of an agency to
+advise and assist the head of agency and other agency officials to ensure that the mission of the
+agency is achieved through the management of the agency’s acquisition activities. 
+

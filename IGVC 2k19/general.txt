@@ -1,0 +1,33 @@
+THREAT MODELING:
+    answers questions like “Where are the high-value assets?”, 
+    “Where am I most vulnerable to attack?”, 
+    “What are the most relevant threats?”, 
+    and “Is there an attack vector that might go unnoticed?”.
+
+protecting individuals’
+privacy cannot be achieved solely by securing PII.
+
+a system as a set of interacting elements that are organized
+to achieve one or more stated purposes.
+
+AUTHORIZATION BOUNDARIES
+The authorization boundary establishes the scope of protection for an information system (i.e.,
+what the organization agrees to protect under its direct management or within the scope of its
+responsibilities)
+includes:
+people, processes, responsibilities
+When a set of system elements is identified as an authorization boundary for a system, the elements are generally under the same
+direct management
+Process, store, and transmit similar types of information (e.g., categorized at the same
+impact level);
+Reside in same environment of operation
+
+The term requirements, as used in
+this guideline, includes both legal and policy requirements, as well as an expression of the
+broader set of stakeholder protection needs that may be derived from other sources.
+
+term capability requirement to describe a capability that
+the system or organization must provide to satisfy a stakeholder protection need.
+
+To address supply chain risks, organizations develop an SCRM policy, which is an important
+vehicle for directing SCRM activities.
