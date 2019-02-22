@@ -126,7 +126,7 @@ CATEGORIZE:
 
 SELECT:purpose of the Select step is to select, tailor, and document the controls necessary to protect
        the information system and organization commensurate with risk to organizational operations
-        and assets, individuals, other organizations, and the Nation.
+        and assets, individuals, other organizacd tions, and the Nation.
 
         TS1. Select controls for system and environment of operation
             INPUTS: Above points result ie., categorize and preparse step,
@@ -217,4 +217,96 @@ TI.2 UPDATE CONTROL IMPLEMENTATION INFORMATION
     control assessments. Documenting the “as implemented” control information is essential to providing the
     capability to determine when there are changes to the controls, whether those changes are authorized,
     and the impact of the changes on the security and privacy posture of the system and the organization.
+
+
+
+ASSESS:
+    to determine if controls selected for implementation are implemented correctly, operating as intended
+    and producing desired outcome wrt meeting security and privacy.
+
+     TA.1 ASSESOR SELECTION
+       INPUTS:Security, privacy, and SCRM plan, program management control information, common control                   documentation, security and privacy program plans,
+                  system design documentation; enterprise, security, and privacy architecture informaton; 
+                  security, privacy, and SCRM policies and procedures applicable to the system.
+           OUTPUTS: an assessor or assessment team is selected to conduct control assessments 
+
+     TA.2 ASSESSMENT PLAN
+        Develop, review, and approve plans to assess implemented controls.
+         INPUTS: As above
+         OUTPUTS:Documentation needed to conduct the assessments is provided to the assessor or assessment team.
+                  Security and privacy assessment plans are developed and documented.
+                  Security and privacy assessment plans are reviewed and
+                  approved to establish the expectations for the control assessments and the level of effort required.
+                  employ procedures, methods, techniques, tools, and automation to support continuous monitoring and near 
+                  real-time risk management; and are cost-effective.
+         example:
+            developmental testing and evaluation; independent verification and validation; audits, including supply
+            chain; assessments supporting system and common control authorization or reauthorization; program           
+            management control assessments; continuous monitoring; and assessments conducted after remediation
+            actions.
+
+     TA.3 CONTROL ASSESSMENT
+       Assess the controls in accordance with the assessment procedures described in assessment plans.
+          OUTPUTS:Control assessments are conducted in accordance with the security and privacy assessment plans
+                 Opportunities to reuse assessment results from previous assessments to make the risk management
+                 process timely and cost-effective are considered.
+                 Use of automation to conduct control assessments is maximized to increase speed, effectiveness,
+                 and efficiency of assessments.
+                 Control assessments occur as early as practicable in the SDLC, preferably during the development phase.
+                 Organizations can maximize the use of automation to conduct control assessments to increase the speed,effectiveness,
+                 and efficiency of the assessments, and to support continuous monitoring of the security and privacy
+                 posture of organizational systems. 
+
+          example: design and code reviews, regression testing, and application scanning.                  
+                A recent audit of a system may have produced information about the effectiveness of selected controls. 
+                Another opportunity to reuse previous assessment results may come from external programs that test and evaluate security and
+                privacy features of commercial information technology products (e.g., Common Criteria Evaluation and
+                Validation Program and NIST Cryptographic Module Validation Program,). If prior assessment results from
+                the system developer or vendor are available, the control assessor, under appropriate circumstances, may
+                incorporate those results into the assessment.
+                if a control implementation was assessed during other forms of assessment at previous stages of the 
+                SDLC (e.g., unit testing, functional testing,acceptance testing), organizations may consider potential reuse 
+                of those results to reduce duplication of efforts
+
+                //SEE APPENDIX F FOR "AUTHORIZATION BAKCHODI"
+
+
+        TA.4 ASSESSMENT REPORTS
+        Security and privacy assessment reports that provide findings and recommendations are completed.
+        
+ example:
+    developmental testing and evaluation; independent verification and
+    validation; independent assessments supporting information system or common control authorizations or
+    reauthorizations; self-assessments; assessments after remediation actions; independent evaluations or
+    audits; and assessments during continuous monitoring.
+
+
+REMEDIATION ACTIONS:
+    To remediate is to correct or make right.
+    to address deficiencies in the controls implemented in the system and environment of operation are
+    taken.
+    Security and privacy plans are updated to reflect control implementation changes made based on the 
+    assessments and subsequent remediation actions.
+    INPUTS: Completed security and privacy assessment reports with findings and
+    recommendations; security and privacy plans; security and privacy assessment plans; organization- and
+    System-level risk assessment results.
+     The security and privacy assessment reports describe deficiencies in the controls that could
+     not be resolved during the development of the system or that are discovered post-development
+
+
+TA.6 PLAN OF ACTION AND MILESTONES
+    Prepare the plan of action and milestones based on the findings and recommendations of the
+    assessment reports.
+    A plan of action and milestones detailing remediation plans for
+    unacceptable risks identified in security and privacy assessment
+    reports is developed.
+
+    Inputs: Updated security and privacy assessment reports; updated security and privacy plans;
+            organization- and system-level risk assessment results; organizational risk management strategy and risk
+            tolerance.
+        Risk mitigation resources include, for example, personnel, new hardware or software, and tools.
+
+
+
+
 

@@ -42,3 +42,19 @@ managing user accounts; overseeing or conducting backup, recovery, and reconstit
 activities; implementing controls; and adhering to and enforcing organizational security and
 privacy policies and procedures.
 
+
+COMMON CRITERIA EVALUATION
+The Common Criteria for Information Technology Security Evaluation (CC), and the companion Common Methodology
+for Information Technology Security Evaluation (CEM) are the technical basis for an international agreement,
+the Common Criteria Recognition Arrangement (CCRA), which ensures that:
+
+Products can be evaluated by competent and independent licensed laboratories so as to determine the fulfilment 
+of particular security properties, to a certain extent or assurance;
+Supporting documents, are used within the Common Criteria certification process to define how the criteria and 
+evaluation methods are applied when certifying specific technologies;
+The certification of the security properties of an evaluated product can be issued by a number of 
+Certificate Authorizing Schemes, with this certification being based on the result of their evaluation;
+These certificates are recognized by all the signatories of the CCRA.
+The addendum does not change or influence the initial assessor findings provided in the reports. Information
+provided in the addendum is considered by authorizing officials when making risk-based authorization
+decisions.
