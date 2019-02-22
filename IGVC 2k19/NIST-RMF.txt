@@ -220,7 +220,7 @@ TI.2 UPDATE CONTROL IMPLEMENTATION INFORMATION
 
 
 
-ASSESS:
+ASSESS:{
     to determine if controls selected for implementation are implemented correctly, operating as intended
     and producing desired outcome wrt meeting security and privacy.
 
@@ -281,7 +281,7 @@ ASSESS:
     audits; and assessments during continuous monitoring.
 
 
-REMEDIATION ACTIONS:
+    TA.5 REMEDIATION ACTIONS:
     To remediate is to correct or make right.
     to address deficiencies in the controls implemented in the system and environment of operation are
     taken.
@@ -306,7 +306,68 @@ TA.6 PLAN OF ACTION AND MILESTONES
             tolerance.
         Risk mitigation resources include, for example, personnel, new hardware or software, and tools.
 
+}
+
+AUTHORIZATION: //appendix F is very very inportant
 
 
+    TAR.1 AUTH PACKAGE
+        INPUTS: Security and privacy plans; security and privacy assessment reports; plan of action and
+                Milestones; supporting assessment evidence or other documentation, as required.
 
+    Organizations are encouraged to maximize the use of automated tools in the preparation, assembly, and
+    transmission of authorization packages and security and privacy information supporting the authorization process.
+    Many commercially available governance, risk, and compliance (GRC) tools can be employed to reduce or eliminate
+    hard copy documentation.
+    Authorization packages include security and privacy plans, security and privacy assessment
+    reports, plans of action and milestones, and an executive summary.
 
+    TAR.2 RISK ANALYSIS AND DETERMINATION
+        INPUTS: Upar wala 
+        OUTPUTS: A risk determination by the authorizing official that reflects the
+                 risk management strategy including risk tolerance, is rendered.
+        organizational risk tolerance, dependencies among systems and
+        controls, mission and business requirements, the criticality of the missions or business functions
+        supported by the system, or the risk management strategy.
+
+    TAR.3 RISK RESPONSE
+    Identify and implement a preferred course of action in response to the risk determined.
+         Inputs: Authorization package; risk determination; organization- and system-level risk
+                 assessment results.
+         Outputs: Risk responses for determined risks.
+
+     Some risks may be of greater concern to organizations
+     than other risks. In that case, more resources may need to be directed at addressing higher-priority risks
+     versus lower-priority risks. Prioritizing risk response does not necessarily mean that the lower-priority
+     risks are ignored. Rather, it could mean that fewer resources are directed at addressing the lower-priority
+     risks, or that the lower-priority risks are addressed later.
+     key part of the risk-based decision process is the recognition that regardless of the risk response,
+     There remains a degree of residual risk. Organizations determine acceptable degrees of residual risk 
+     based on organizational risk tolerance.
+
+     TAR.4 AUTHORIZATION DECISION
+             The authorization for the system or the common controls is
+             approved or denied.
+
+     INPUTS: Risk responses for determined risks.
+
+     OUTPUTS: Authorization to operate, authorization to use, common control authorization; denial
+     of authorization to operate, denial of authorization to use, denial of common control authorization.
+
+     Organizations are encouraged to employ automated security/privacy management and reporting tools whenever
+     feasible, to develop the authorization packages for systems and common controls and to maintain those packages
+     during ongoing authorization. Automated tools can significantly reduce documentation costs, provide increased
+     speed and efficiency in generating important information for decision makers, and provide more effective means for
+     updating critical risk management information. It is recognized that certain controls are not conducive to the use of
+     automated tools and therefore, manual methods are acceptable in those situations.
+     For systems, the authorization decision indicates to the system owner whether the system is authorized
+     to operate or authorized to use, or not authorized to operate or not authorized to use. For common
+     controls, the authorization decision indicates to the common control provider and to the system owners
+     of inheriting systems, whether the common controls are authorized to be provided or not authorized to
+
+    TAR.5 AUTHORIZATION REPORTING
+     Report the authorization decision and any deficiencies in controls that represent significant
+     security or privacy risk.
+         INPUTS: Authorization decision.
+         OUTPUTS: A report indicating the authorization decision for a system or set of common controls;
+                annotation of authorization status in the organizational system registry.
