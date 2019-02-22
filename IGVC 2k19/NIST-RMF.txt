@@ -371,3 +371,134 @@ AUTHORIZATION: //appendix F is very very inportant
          INPUTS: Authorization decision.
          OUTPUTS: A report indicating the authorization decision for a system or set of common controls;
                 annotation of authorization status in the organizational system registry.
+
+
+MONITOR:
+    to maintain an ongoing situational awareness about the security and privacy posture of the information 
+    system and the organization in support of risk management decisions.
+
+
+    TM.1 SYSTEM AND ENVIRONMENT CHANGES
+        INPUTS: Organizational continuous monitoring strategy; organizational configuration
+        management policy and procedures; organizational policy and procedures for handling unauthorized
+        system changes; security and privacy plans; configuration change requests/approvals; system design
+        documentation; security and privacy assessment reports; plans of action and milestones; information
+        from automated and manual monitoring tools.
+        OUTPUTS: Updated security and privacy plans; updated plans of action and milestones; updated
+        Security and privacy assessment reports.
+
+Systems and environments of operation are in a constant state of change with changes
+occurring in the technology or machine elements, human elements, and physical or environmental
+elements. Changes to the technology or machine elements include for example, upgrades to hardware,
+software, or firmware; changes to the human elements include for example, staff turnover or a reduction
+in force; and modifications to the surrounding physical and environmental elements include for example,
+changes in the location of the facility or the physical access controls protecting the facility. Changes made
+by external providers can be difficult to detect. A disciplined and structured approach to managing,
+controlling, and documenting changes to systems and environments of operation, and adherence with
+terms and conditions of the authorization, is an essential element of security and privacy programs.
+Organizations establish configuration management and control processes to support configuration and
+change management
+
+Common activities within organizations can cause changes to systems or the environments of operation
+and can have a significant impact on the security and privacy posture of systems. Examples include
+installing or disposing of hardware, making changes to configurations, and installing patches outside of
+the established configuration change control process. Unauthorized changes may occur because of
+purposeful attacks by adversaries or inadvertent errors by authorized personnel. In addition to adhering
+to the established configuration management process, organizations monitor for unauthorized changes to
+systems and analyze information about unauthorized changes that have occurred to determine the root
+cause of the unauthorized change. In addition to monitoring for unauthorized changes, organizations
+continuously monitor systems and environments of operation for any authorized changes that impact the
+privacy posture of systems.
+
+example, if
+the root cause of an unauthorized change is determined to be an adversarial attack, multiple actions
+could be taken such as invoking incident response processes, adjusting intrusion detection and prevention
+tools and firewall configurations, or implementing additional or stronger controls to reduce the risk of
+future attacks. If the root cause of an unauthorized change is determined to be a failure of staff to adhere
+to established configuration management processes, remedial training for certain individuals may be
+warranted.
+
+    TM.2 ONGOING ASSESSMENTS
+        Ongoing assessments of control effectiveness are conducted in
+        accordance with the continuous monitoring strategy.
+        Monitor the information system and its environment of operation for changes that impact the
+        security and privacy posture of the system.
+
+        To satisfy the annual FISMA security assessment requirement, organizations can use assessment results
+from control assessments that occurred during authorization, ongoing authorization, or reauthorization;
+during continuous monitoring; or the during testing and evaluation of systems as part of the SDLC or an
+audit (provided the assessment results are current, relevant to the determination of control effectiveness,
+and obtained by assessors with the required degree of independence).
+
+ TM.3 ONGOING RISK RESPONSE
+    The output of continuous monitoring activities is analyzed and
+responded to appropriately.
+
+    AUTHORIZATION PACKAGE UPDATES
+TM4 Update plans, assessment reports, and plans of action and milestones based on the results of
+the continuous monitoring process.
+    To achieve near real-time risk management, the organization updates security and privacy
+plans, security and privacy assessment reports, and plans of action and milestones on an ongoing basis.
+Updates to the plans reflect modifications to controls based on risk mitigation activities carried out by
+system owners or common control providers. Updates to control assessment reports reflect additional
+assessment activities carried out to determine control effectiveness based on implementation details in
+the plans. Plans of action and milestones are updated based on progress made on the current outstanding
+items; address security and privacy risks discovered as part of control effectiveness monitoring; and
+describe how the system owner or common control provider intends to address those risks. The updated
+information raises awareness of the security and privacy posture of the system and the common controls
+inherited by the system, thereby, supporting near real-time risk management and the ongoing
+authorization process.
+
+    Organizations ensure that information needed for oversight, management, and auditing purposes is not
+modified or destroyed when updating security and privacy plans, assessment reports, and plans of action
+and milestones. Providing an effective method to track changes to systems through configuration
+management procedures is necessary to achieve transparency and traceability in the security and privacy
+activities of the organization; to obtain individual accountability for any security or privacy actions; and to
+understand emerging trends in the security and privacy programs of the organization.
+
+SECURITY AND PRIVACY REPORTING
+Task M-5 Report the security and privacy posture of the system to the authorizing official and other
+organizational officials on an ongoing basis in accordance with the organizational continuous
+monitoring strategy.
+A process is in place to report the security and privacy posture to
+the authorizing official and other senior leaders and executives
+Security and privacy posture reports are marked, protected, and handled in accordance with federal and
+organizational policies. Security and privacy posture reports can be used to satisfy FISMA reporting
+requirements for documenting remediation actions for security and privacy weaknesses or deficiencies.
+Reporting on security and privacy posture is intended to be ongoing and should not be interpreted as
+requiring the time, expense, and formality associated with the information provided for the initial
+authorization. Rather, reporting is conducted in a cost-effective manner consistent with achieving the
+reporting objectives.
+
+ONGOING AUTHORIZATION
+Task M-6 Review the security and privacy posture of the system on an ongoing basis to determine
+whether the risk remains acceptable.
+Potential Inputs: Risk tolerance; security and privacy posture reports; plans of action and milestones;
+organization- and system-level risk assessment results; security and privacy plans.
+The risks may change based on the information provided in the security and privacy posture reports
+because the reports may indicate changes to the security or privacy risk factors. Determining how
+changing conditions affect organizational and individual risk is essential for managing privacy risk and
+maintaining adequate security. By carrying out ongoing risk determination and risk acceptance,
+authorizing officials can maintain system and common control authorizations over time and transition to
+ongoing authorization. Reauthorization actions occur only in accordance with federal or organizational
+policies.
+The use of automated support tools to capture, organize, quantify, visually display, and maintain security
+and privacy posture information promotes near real-time risk management regarding the risk posture of
+the organization.
+
+SYSTEM DISPOSAL
+    TM.7 Implement a system disposal strategy and execute required actions when a system is removed
+        from operation.
+    OUTPUTS: Disposal strategy; updated system component inventory; updated security and
+privacy plans.
+    When a system is removed from operation, several risk management actions are required.
+Organizations ensure that controls addressing system disposal are implemented. Examples include media
+sanitization; configuration management and control; component authenticity; and record retention.
+Organizational tracking and management systems (including inventory systems) are updated to indicate
+the system that is being removed from service. Security and privacy posture reports reflect the security
+and privacy status of the system. Users and application owners hosted on the disposed system are
+notified as appropriate, and any control inheritance relationships are reviewed and assessed for impact.
+This task also applies to system elements that are removed from operation. Organizations removing a
+system from operation update the inventory of information systems to reflect the removal. System
+owners and security personnel ensure that disposed systems comply with relevant federal laws,
+regulations, directives, policies, and standards
