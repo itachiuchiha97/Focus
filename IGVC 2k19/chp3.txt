@@ -1,0 +1,9 @@
+The best RMF implementation is one that is indistinguishable from the routine SDLC processes //SEE SPIRAL MODEL OF SDLC
+carried out by organizations.Organizations align their risk management roles with complementary or similar 
+roles defined for the SDLC whenever possible, and consistent with missions and business functions.
+
+While the tasks appear in sequential order, there can be many points in the risk management process that
+require divergence from the sequential order, including the need for iterative cycles between
+initial task execution and revisiting tasks.
+Regardless of the task ordering, the final action before a system is placed into operation is the explicit
+acceptance of risk by the authorizing official.

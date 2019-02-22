@@ -1,3 +1,7 @@
+COMMON CONTROLS:
+Common Controls are security controls whose implementation results in a security capability 
+that is inheritable by multiple information systems (IS).
+
 CHIEF INFORMATION OFFICER:
 responsible for designating a senior
 agency information security officer; developing and maintaining security policies, procedures,
@@ -12,4 +16,29 @@ CHIEF ACQUISITION OFFICER:
 The chief acquisition officer is an organizational official designated by the head of an agency to
 advise and assist the head of agency and other agency officials to ensure that the mission of the
 agency is achieved through the management of the agency’s acquisition activities. 
+
+ENTERPRISE ARCHITECTURE:
+An enterprise architecture (EA) is a conceptual blueprint that defines the structure and operation of an 
+organization. 
+The intent of an enterprise architecture is to determine how an organization can most effectively achieve 
+its current and future objectives.
+
+ENTERPRISE ARCHITECT:
+Implement an enterprise architecture strategy that facilitates effective security and privacy
+solutions;
+Coordinate with security and privacy architects to determine the optimal placement of
+systems/system elements within the enterprise architecture and to address security and
+privacy issues between systems and the enterprise architecture;
+Assist with integration of the organizational risk management strategy and system-level
+security and privacy requirements into program, planning, and budgeting activities, the
+SDLC, acquisition processes, security and privacy (including supply chain) risk management,
+and systems engineering processes.
+
+SYSTEM ADMINISTRATOR
+The system administrator is an individual, group, or organization responsible for setting up and
+maintaining a system or specific system elements. System administrator responsibilities include,
+for example, installing, configuring, and updating hardware and software; establishing and
+managing user accounts; overseeing or conducting backup, recovery, and reconstitution
+activities; implementing controls; and adhering to and enforcing organizational security and
+privacy policies and procedures.
 

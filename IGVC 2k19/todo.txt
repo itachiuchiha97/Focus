@@ -1,0 +1,10 @@
+STUDY:
+    Spiral Model of SDLC
+
+
+
+
+The roles specified in the Primary Responsibility section for each RMF task are responsible for
+ensuring that the task is completed. //FIND RESPONSIBLE PERSONS AND 
+
+ADD SDLC TO EACH TASK MENTIONED.

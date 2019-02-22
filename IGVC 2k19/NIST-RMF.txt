@@ -17,7 +17,7 @@ TP1. Identify and assign roles
     INPUTS: Security privacy policy and procedures, organization charts
     OUTPUTS: Documented RMF role assignments
 
-TP2. Risk Management Strategy
+TP2. Risk Management Strategy   
     INPUTS:mission statements, policies, risk assumptions, constraints, priorities, tradeoffs
     OUTPUTS:rm Strategy and statements of risk tolerance inclusive of info security and privacy risk
  Risk tolerance is the degree of risk or uncertainty that is acceptable to an organization.
@@ -79,4 +79,142 @@ processes to produce the necessary evidence in authorization packages to facilit
 risk-based decision making by senior leaders in organizations.
 
 
+CATEGORIZE:
+    TC1. Document characteristics of system.
+    INPUTS:System design and requirements documentation,
+           authorization boundary info, //{firewalls, service/port/protocol} //set of 
+           list of security and privacy allocated to system // description of security controls
+           system elements, //nodes n stuff
+           environment of operation,
+           data map of the information life cycle for information types 
+           processed, stored, and transmitted by the system
+    OUTPUTS: Documented system description.
+ System Development Life Cycle Phase: New – Initiation (concept/requirements definition).
+ Existing – Operations/Maintenance.
+
+ example: descriptive name of system and its identifier,
+          version and release number,
+          individual responsible for system,
+          purpose,
+          how its integrated in enterprise architecture,
+          SDLC phase
+          authorization boundaries; law(band of radiowaves), directive, policies
+          Network topology,
+          info types: h/w, s/w and system interfaces,
+          information flow,
+          Network communication rules for interacting with other system,
+          system users: access rights, privilages, citizenship
+          maintainance and relative agreements, 
+          ownership of system; //proprietory, partnership, LLC, corporation (A corporation is an organization, usually a group of people or a company, authorized to act as a single entity and recognized as such in law.)
+
+    TC2. Security Categorization
+        INPUTS: RM strategy, 
+                risk tolerance,
+                risk assessment results,
+                info types processed, stored and trans
+                list of security and privacy requirements allocated to the system
+                environment of operation
+        OUTPUTS: Impact level determined for each info type and security objective
+                 CIA - confidentiality, integrity, availability 
+            determine considerable adverse impacts to organization, assets, individual resulting from loss of CIA 
+
+        TC3. SECURITY CATEGORIZATION REVIEW AND APPROVAL
+            INPUTS: Identification of above processes
+            OUTPUTS: Approval of security CATEGORIZATION
+
+
+
+SELECT:purpose of the Select step is to select, tailor, and document the controls necessary to protect
+       the information system and organization commensurate with risk to organizational operations
+        and assets, individuals, other organizations, and the Nation.
+
+        TS1. Select controls for system and environment of operation
+            INPUTS: Above points result ie., categorize and preparse step,
+                    Cybersecurity Framework Profiles.
+            OUTPUTS: selection of controls
+            two approaches- a baseline control selection approach, or an organization-generated control 
+            selection approach.
+            In both the baseline control selection approach and organization-generated control selection approachh
+            organizations develop a well-defined set of security and privacy requirements using a life cycle-based
+            systems engineering process.
+        
+       TS2. Tailor the controls selected for the system and the environment of operation.
+            INPUTS: All assessed risks and requirements
+            OUTPUTS: Control tailoring
+        the justification or supporting rationale for scoping decisions related to a high-
+        impact system or high value asset
+
+        TS3. Control Allocation 
+
+            OUTPUTS: • Controls are designated as system-specific, hybrid, or common controls.
+                     • Controls are allocated to the specific system elements (i.e.,
+                       machine, physical, or human elements).
+        Not all controls need to be allocated by all system elements
+        Controls providing a specific security or privacy capability are only allocated to system elements 
+        that require that capability.
+        example: system-specific controls associated with management of audit logs may be allocated to a log 
+        management server and need not be implemented on every system element
+
+        TS4. Document the controls for the system and environment of operation in security and privacy plans.
+
+            Documentation of planned control implementations allows for traceability of decisions prior to and after
+            the deployment of the system. To the extent possible, organizations reference existing documentation
+            (either by vendors or other organizations that have employed the same or similar systems or system
+            elements), use automated support tools, and coordinate across the organization to reduce redundancy
+            and increase the efficiency and cost-effectiveness of control documentation        
+            Also, addresses platform dependencies and includes any additional information necessary to describe how 
+            the capability required is to be achieved at the level of detail sufficient to support control implementation and
+            assessment.
+            In some cases security controls can be implemented in ways that create privacy risks. 
+            The privacy program supports documentation of privacy risk considerations and the implementations intended to mitigate them.
+            Documenting the process helps to ensure traceability in meeting the security and privacy requirements.
+
+        TS5. CONTINUOUS MONITORING STRATEGY — SYSTEM
+                Continuous monitoring strategy for the system including time-based trigger for ongoing authorization
+        An important aspect of risk management is the ongoing monitoring of controls implemented
+        within or inherited by an information system. An effective continuous monitoring strategy at the system
+        level is developed and implemented in coordination with the organizational continuous monitoring
+        strategy early in the SDLC (i.e., during initial system design or procurement decision)
+        the system-level continuous monitoring strategy identifies the criteria for determining the frequency with which
+        controls are monitored post-implementation and the plan for the ongoing assessment of those controls.
+        The Privacy Continuous Monitoring (PCM) strategy includes all of the available privacy controls implemented
+        ughout the organization at all risk management levels (i.e., organization, mission/business process, and system).
+        The strategy ensures that the controls are monitored on an ongoing basis by assigning an organization-defined
+        assessment frequency to each control that is sufficient to ensure compliance with applicable privacy requirements
+        and to manage privacy risks.
+
+        TS6. Review and approve the security and privacy plans for the system and the environment of
+             operation.
+         INPUTS: Security and privacy plans; organization- and system-level risk assessment results.
+         OUTPUTS: Security and privacy plans approved by the authorizing official.
+              TO CHECK  if the plans are complete, consistent, and satisfy the stated security and privacy requirements
+              for the system.
+
+
+
+IMPLEMENT:
+    Purpose is to implement the controls in security and privacy plans for system and to
+    document specific details of control implementation.
+
+TI.1 CONTROL IMPLEMENTATION
+
+     OUTPUTS:Controls specified in the security and privacy plans are implemented
+             Systems security and privacy engineering methodologies are used to implement the controls in
+             the system security and privacy plans.
+             in commercial off-the-shelf products, organizations
+            consider the use of system elements that have been tested, evaluated, or validated by approved,
+            independent, third-party assessment facilities (e.g., NIST Cryptographic Module Validation Program
+            Testing Laboratories, National Information Assurance Partnership Common Criteria Testing Laboratories).
+            The tests, evaluations, and validations consider products in specific configurations and in isolation; control                implementation addresses how the product is integrated into the system while preserving security
+            functionality and assurance
+
+TI.2 UPDATE CONTROL IMPLEMENTATION INFORMATION
+      OUTPUTS: Changes to the planned implementation of controls are documented.
+               The security and privacy plans are updated based on information
+               obtained during the implementation of the controls;
+    The updates include revised descriptions of implemented controls including
+    changes to planned inputs, expected behavior, and expected outputs with sufficient detail to support
+    control assessments. Documenting the “as implemented” control information is essential to providing the
+    capability to determine when there are changes to the controls, whether those changes are authorized,
+    and the impact of the changes on the security and privacy posture of the system and the organization.
 
