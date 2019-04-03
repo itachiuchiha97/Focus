@@ -110,7 +110,7 @@ CATEGORIZE:
     TC2. Security Categorization
         INPUTS: RM strategy, 
                 risk tolerance,
-                risk assessment results,
+                risk assessment results, (threat identification, threat trees, threat asset matrix, LMH bakchodi)
                 info types processed, stored and trans
                 list of security and privacy requirements allocated to the system
                 environment of operation
@@ -122,7 +122,7 @@ CATEGORIZE:
             INPUTS: Identification of above processes
             OUTPUTS: Approval of security CATEGORIZATION
 
-
+                
 
 SELECT:purpose of the Select step is to select, tailor, and document the controls necessary to protect
        the information system and organization commensurate with risk to organizational operations

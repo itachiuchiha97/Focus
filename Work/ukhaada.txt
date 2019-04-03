@@ -1,0 +1,11 @@
+
+
+####################################DISTRIBUTED COMPUTING SYSTEM########################################
+
+Developed a system which allows multiple devices running ROS (Robot Operating System) to communicate with each other wirelessly, using concept of distributed computing.
+This includes selecting a transciever (Bullet M2hp in this case) with antenna and creating wireless access point for code manipulation.
+Bullet acts as a wifi range extender (upto 50km; given compatible antenna is interfaced), in our case we used a 9dbi antenna with high gain from transmitter
+Bullet is bridged with a router which further takes responsibility of managing clients over DHCP.
+
+
+########################################################################################################
